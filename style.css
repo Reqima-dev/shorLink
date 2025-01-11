@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #5272ef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.wrapper {
+  width: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+  padding: 18px 25px 20px;
+}
+.wrapper :where(.title, .details) {
+  display: flex;
+  align-items: center;
+}
+.title img {
+  max-width: 21px;
+}
+.title h2 {
+  font-size: 21px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+.copyBtn img {
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.content p {
+  font-size: 15px;
+}
+
+.content input {
+  width: 100%;
+  padding: 10px;
+  margin: 12px 0;
+  border-radius: 5px;
+  border: 1px solid #a6a6a6;
+  outline: none;
+}
+.details {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details div {
+  display: flex;
+  align-items: center;
+}
+
+#shortUrl {
+  font-size: 13px;
+  font-style: italic;
+  color: #5272ef;
+}
+
+.copyBtn {
+  background-color: #fff;
+  padding: 9px 15px;
+  border: 1px solid #a6a6a6;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.genreateLinlBtn {
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 9px 15px;
+  background-color: #5272ef;
+  border-radius: 5px;
+  cursor: pointer;
+}

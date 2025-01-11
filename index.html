@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title">
+        <img src="external-link.png" />
+        <h2>Raccourcir un lien</h2>
+      </div>
+      <div class="content">
+        <p>Entrez votre lien</p>
+        <input type="text" placeholder="www.example.com" id="longUrl" />
+      </div>
+      <div class="details">
+        <p id="shortUrl">www.result.com</p>
+        <div>
+          <button class="copyBtn">
+            <img src="copy.png" alt="" />
+          </button>
+          <button class="genreateLinlBtn" onclick="generateShortLink()">
+            Raccourcir
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
